@@ -7,15 +7,16 @@
 .bd-example {
     max-width: 800px;
     margin: auto;
+    border-bottom: 25px solid white;    
 }
 
 .carousel-inner {
     max-width: 800px;
-    max-height: 400px;
+    max-height: 340px;
 }
 
 .hero {
-    background-image: url("../images/home-background.jpg");
+    background-image: url("../images/hero-background.jpg");
     background-position: center;
     background-size: cover;
 }
@@ -23,11 +24,57 @@
 .jumbotron {
     background-color: rgba(23, 33, 48, 0.527);
     color: white;
-    text-shadow: 2px 2px rgb(9, 10, 65);
-    font-weight: bold;
+    text-shadow: 2px 2px rgb(0, 0, 0);
+    font-family: 'DM Serif Text', serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.lead {
+    font-size: 2rem;
 }
 
 hr {
     border-color: white;
     height: 5px;
 }
+
+.home-center {
+    text-align: center;
+    font-family: 'DM Serif Text', serif;
+}
+
+.home-center hr {
+    border-color: black;
+    width: 50%;
+}
+
+.carousel-margin {
+    background-color: rgba(2, 86, 112, 0.623);
+    border-bottom: 25px solid white;    
+}
+
+.bg-nav {
+    background-color: rgb(2, 86, 112);
+    /* text-shadow: 1px 1px blue; */
+    border-bottom: 1px solid white;
+}
+
+.parallax {
+    background-image: url('images/home-background.jpg');
+    height: 100%;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url('../images/home-background.jpg');
+  
+    /* Full height */
+    height: 10vh; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
