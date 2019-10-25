@@ -13,3 +13,21 @@
     max-width: 800px;
     max-height: 400px;
 }
+
+.hero {
+    background-image: url("../images/home-background.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.jumbotron {
+    background-color: rgba(23, 33, 48, 0.527);
+    color: white;
+    text-shadow: 2px 2px rgb(9, 10, 65);
+    font-weight: bold;
+}
+
+hr {
+    border-color: white;
+    height: 5px;
+}
