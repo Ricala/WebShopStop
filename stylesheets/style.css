@@ -1,0 +1,15 @@
+.peopleCarouselImg img {
+    width: 100%;
+    overflow: hidden;
+    height: auto;
+}
+
+.bd-example {
+    max-width: 800px;
+    margin: auto;
+}
+
+.carousel-inner {
+    max-width: 800px;
+    max-height: 400px;
+}
