@@ -32,7 +32,6 @@
 
 .lead {
     font-size: 2rem;
-    /* font-size: test */
 }
 
 hr {
@@ -57,7 +56,6 @@ hr {
 
 .bg-nav {
     background-color: rgb(2, 86, 112);
-    /* text-shadow: 1px 1px blue; */
     border-bottom: 1px solid white;
 }
 
@@ -67,13 +65,10 @@ hr {
 }
 
 .parallax {
-    /* The image used */
     background-image: url('../images/home-background.jpg');
   
-    /* Full height */
     height: 10vh; 
   
-    /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
